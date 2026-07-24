@@ -1,0 +1,192 @@
+﻿Diagnose log at 2026-07-24T02:21:57Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.9.0+194ba290ce533465310d50f811684ab180536ae7
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD
+TMP=C:\Users\natan\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\natan\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\natan\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Laragon;C:\Program Files\Git\cmd;C:\Users\natan\AppData\Local\Microsoft\WindowsApps;C:\Users\natan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\natan\AppData\Local\Python\bin;C:\Users\natan\AppData\Local\GitHubDesktop\bin
+USERPROFILE=C:\Users\natan
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-7b7e55194d-sock
+PROCESSOR_REVISION=4401
+TEMP=C:\Users\natan\AppData\Local\Temp
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+LOGONSERVER=\\NATANAEL_NA70
+TERM=xterm-256color
+USERNAME=natan
+SystemRoot=C:\WINDOWS
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_2864_YYMDDECXMLWZEYVD
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\natan\OneDrive
+USERDOMAIN_ROAMINGPROFILE=NATANAEL_NA70
+VSCODE_NONCE=1b778da8-ae46-485b-972a-0fddb3b47f5a
+CommonProgramFiles=C:\Program Files\Common Files
+VSCODE_INJECTION=1
+ProgramData=C:\ProgramData
+LANG=en_US.UTF-8
+GIT_ASKPASS=c:\Users\natan\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+HOMEPATH=\Users\natan
+OneDriveConsumer=C:\Users\natan\OneDrive
+COMPUTERNAME=NATANAEL_NA70
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+VSCODE_A11Y_MODE=0
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=b8b998d5-a3f0-42e7-8fb8-97a3e14ca7ca
+VSCODE_GIT_ASKPASS_NODE=C:\Users\natan\AppData\Local\Programs\Microsoft VS Code\Code.exe
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+VSCODE_STABLE=1
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\natan
+PSModulePath=C:\Users\natan\OneDrive\Document\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\natan\AppData\Local\Temp
+APPDATA=C:\Users\natan\AppData\Roaming
+USERDOMAIN=NATANAEL_NA70
+PROCESSOR_LEVEL=25
+LOCALAPPDATA=C:\Users\natan\AppData\Local
+TERM_PROGRAM_VERSION=1.130.0
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\natan\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\natan\AppData\Local\Temp\61b1449f866ececd2c70ddf7'... OK
+Reading from temporary file 'C:\Users\natan\AppData\Local\Temp\61b1449f866ececd2c70ddf7'... OK
+Deleting temporary file 'C:\Users\natan\AppData\Local\Temp\61b1449f866ececd2c70ddf7'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\natan
+UserDataDirectoryPath: C:\Users\natan\.gcm
+GetCurrentDirectory(): C:\Users\natan\BelajarGit
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:49549/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.3'
+Locating current repository...Git repository at 'C:/Users/natan/BelajarGit/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/natan/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/natan/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/natan/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/natan/.gitconfig	filter.lfs.required=true
+file:C:/Users/natan/.gitconfig	user.name=NatanaelNapitupulu
+file:C:/Users/natan/.gitconfig	user.email=natanaelnapitupulu1@gmail.com
+file:C:/Users/natan/.gitconfig	credential.helper=
+file:C:/Users/natan/.gitconfig	credential.helper=C:/Program\ Files/Git/mingw64/bin/git-credential-manager.exe
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/NatanaelNapitupulu/belajar-github.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\natan\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\natan\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
